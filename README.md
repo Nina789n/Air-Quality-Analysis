@@ -1,23 +1,22 @@
-Real-Time Air Quality Analysis of India 
+# 🌫️ Real-Time Air Quality Analysis of India
 
-This project focuses on exploratory data analysis (EDA) using real-time air quality data collected from multiple monitoring stations across India, sourced from data.gov.in.
-The goal is to uncover meaningful insights into pollution trends, regional variations, and relationships between different air quality parameters. 
+Exploratory data analysis (EDA) of real-time air quality data from monitoring stations across India, sourced from [data.gov.in](https://data.gov.in). The project looks at pollution trends, regional differences, and how different pollutants relate to each other.
 
-Objectives 
-Compare average pollution levels across various states and cities in India  
-Analyze correlations between key pollutant metrics (PM2.5, PM10, NO₂, etc.)  
-Identify and visualize the most polluted monitoring stations  
-Examine regional pollution patterns and dominant pollutants 
-Map the spatial distribution of air quality using geographic coordinates 
+## Objectives
+- Compare average pollution levels across states and cities
+- Analyze correlations between pollutants (PM2.5, PM10, NO₂, etc.)
+- Identify the most polluted monitoring stations
+- Examine regional patterns and dominant pollutants
+- Map air quality using geographic coordinates
 
-Tools & Technologies 
-Python – Core programming language  
-NumPy – Numerical computations  
-Pandas – Data cleaning and manipulation  
-Matplotlib & Seaborn – Data visualization  
-Jupyter Notebook (VS Code) – Development environment 
+## Tools & Technologies
+- Python
+- NumPy and Pandas
+- Matplotlib and Seaborn
+- Jupyter Notebook (VS Code)
 
-Project Structure
+## Project Structure
+```
 real-time-air-quality-analysis/
 ├── data/
 │   └── air_quality_data.csv
@@ -25,8 +24,19 @@ real-time-air-quality-analysis/
 │   └── air_quality_analysis.ipynb
 ├── requirements.txt
 └── README.md
+```
 
-Data Source
-Real-Time Air Quality Index - data.gov.in
+## How to Run
+```bash
+git clone https://github.com/<your-username>/real-time-air-quality-analysis.git
+cd real-time-air-quality-analysis
+pip install -r requirements.txt
+jupyter notebook notebooks/air_quality_analysis.ipynb
+```
+
+## Data Source
+[Real-Time Air Quality Index, data.gov.in](https://data.gov.in)
+
+The data is real-time, so results depend on when it was collected.
 
  
